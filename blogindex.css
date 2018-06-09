@@ -1,0 +1,224 @@
+*{
+	font-weight: bold;
+	font-family: Arial;
+	color:;
+	background-color:; 
+}
+#startcontent{
+			background-color:;
+			width: 900px;
+			height: 900px;
+			margin:0px 10px 10px 15px ;
+			border:10px solid #ffcccc;
+			outline: 10px;
+			
+
+
+}
+
+#mynavbar{
+	background-color: hsl(0, 100%, 50%);
+	width: 900px;
+	height: 80px;
+
+	/* the style of the navbar border*/
+	border:2px solid;
+	background-image: url("me.jpg");
+	background-repeat: repeat;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#mynavbar a{
+	text-decoration: none;
+	margin:0px 0px 0px 20px;
+	padding: 5px;
+	color: white;
+	vertical-align: 20px;
+	display: inline-table;
+	border:2px ;
+	border-style: block;
+	margin-top: 40px;
+	padding:3px;
+	background-color: blue;
+
+}
+a:hover{
+	color: blue;
+	transform: scale(1.5);
+	transition-delay: 0.2s;
+	transform-style:preserve-3d;
+}
+
+
+
+
+
+.navbarimg1{
+	margin:4px 0px 2px 20px;
+	border:2px;
+	border-radius:10px;
+}
+
+
+
+#mainsection{
+	background-color: #ffe6e6;
+	width: 900px;
+	height: 710px;
+
+}
+#h1formain{
+	background-color: #ffe6e6;
+	font-family: Georgia;
+} 
+h1{
+	background-color: #ffe6e6;
+	font-family: Georgia;
+	font-size: 2em;
+	width:px;
+	margin:20px 0px 0px 10px;
+	text-shadow: 2px 3px red;
+
+} 
+
+
+#navbarformain{
+	
+	background-color:red;
+	width:900px;
+	height: 90px;
+	color:white;
+}
+.borderme{
+	border:3px solid;
+	border-radius:0px 10px 0px 10px;
+	margin: 0px 15px 0px 15px;
+}
+
+#navbarformain1{
+	
+	background-color:green;
+	width:300px;
+	height: 90px;
+	color:white;
+	float: right;
+	margin-right: 0px;
+	
+
+}
+
+#navbarformain2{
+	
+	width:600px;
+	height: 90px;
+	margin-left: 2px;
+	background-color:yellow;		
+}
+	
+.secondnav{
+	background: red;
+	color: blue;
+	padding:10px;
+	margin: 30px 30px 30px 30px ;
+	vertical-align: 50px;
+	display: inline-flex;
+	text-decoration: none;
+	border-radius:20px;
+
+}
+
+
+#maindiv{
+	background-color: #ff4000;
+	height:500px;
+	width: 700px; 
+	position: absolute;
+	order: 4px solid;
+	border-radius: 20px 20px 20px 20px;
+	outline:double;
+
+}
+
+#asideformain{
+	background-color:#660000;
+	height: 500px;
+	width: 190px;
+	float: right;
+	vertical-align: top;
+	position: relative;
+	position: relative;
+	border: 4px solid;
+	border-radius: 10px 10px 20px 20px;
+
+}
+#asideformain a{
+	display: block;
+}
+#myButton2{
+	color: white;
+	padding: 5px;
+	border:2px dashed grey;
+	border-radius: 10%;
+	outline: ridge;
+	height: 20px;
+	width: 40px;
+	margin:10px 0px 0px 10px;
+}
+#footerformain{
+
+	background-color:;
+	color: white;
+	height: 130px;
+	clear: both;
+	border:2px solid;
+	border-radius: 20%;
+	text-align: left;
+	padding: 20px 0px 0px 10px;
+
+}
+#footerformain{
+	display: -webkit-box;
+	/*background-color:;
+	color: white;
+	height: 130px;
+	clear: both;
+	border:2px solid;
+	border-radius: 20%;
+	text-align: center;
+	padding: 20px 0px 0px 10px;*/
+}
+#one{
+	-webkit-box-flex:2;
+	background-color:grey;
+	background-color:;
+	color: white;
+	height: 130px;
+	clear: both;
+	border:2px solid;
+	border-radius: 20%;
+	text-align: center;
+	/*padding: 20px 0px 0px 10px;*/
+}
+#two{
+	-webkit-box-flex:2;
+	background-color:green;
+	color: white;
+	height: 130px;
+	clear: both;
+	border:2px solid;
+	border-radius: 20%;
+	text-align:center;
+
+}
+#three{
+	-webkit-box-flex:2;
+	background-color:black;
+	background-color:;
+	color: white;
+	height: 130px;
+	clear: both;
+	border:2px solid;
+	border-radius: 20%;
+	text-align: center;
+	/*padding: 20px 0px 0px 10px;*/
+}
